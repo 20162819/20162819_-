@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ThirdActivity">
+
+
+
+        <TableRow android:gravity="center">
+            <TextView
+                android:id="@+id/La1" />
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <EditText
+                android:id="@+id/Ed1"
+                android:layout_span="4"
+                android:hint="숫자를 입력하시오." />
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <EditText
+                android:id="@+id/Ed2"
+                android:layout_span="4"
+                android:hint="숫자를 입력하시오." />
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <Button
+                android:id="@+id/Num1"
+                android:onClick="Numbering"
+                android:text="1" />
+
+            <Button
+                android:onClick="Numbering"
+                android:id="@+id/Num2"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/Num3"
+                android:onClick="Numbering"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/Add"
+                android:text="+" />
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <Button
+                android:id="@+id/Num4"
+                android:onClick="Numbering"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/Num5"
+                android:onClick="Numbering"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/Num6"
+                android:onClick="Numbering"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/Sub"
+                android:text="-" />
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <Button
+                android:id="@+id/Num7"
+                android:onClick="Numbering"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/Num8"
+                android:onClick="Numbering"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/Num9"
+                android:onClick="Numbering"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/Mul"
+                android:text="*" />
+        </TableRow>
+
+        <TableRow android:gravity="center">
+
+            <Button
+                android:id="@+id/Num0"
+                android:layout_span="2"
+                android:onClick="Numbering"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/Next"
+                android:text="Next" />
+
+            <Button
+                android:id="@+id/Div"
+                android:text="/" />
+        </TableRow>
+    </TableLayout>
+
